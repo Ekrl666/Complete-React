@@ -1,0 +1,14 @@
+.userList {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+  }
+
+.userList p {
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    color: rgb(62, 60, 60);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }

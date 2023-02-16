@@ -1,0 +1,56 @@
+.newUser {
+    margin: 0.5rem 0;
+  }
+  
+.newUser label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+  
+.newUser input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+.newUser input:focus {
+    outline: none;
+    background: #fad0ec;
+    border-color: #8b005d;
+  }
+  
+.newUser.invalid input {
+    border-color: #f04124;
+    background-color: #eaa397;
+  }
+  
+.newUser.invalid label {
+    color: #f04124;
+}
+
+.newUser button {
+    padding: 0.3rem 1.5rem;
+    border: 1px solid #8b005d;
+    border-radius: 5px;
+    color: white;
+    background: #8b005d;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+  
+  .newUser button:focus {
+    outline: none;
+  }
+  
+  .newUser button:hover,
+  .newUser button:active {
+    background: #ac0e77;
+    border-color: #ac0e77;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+    border-radius: 50px;
+  }
